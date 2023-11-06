@@ -2,25 +2,19 @@
 Hiduchick UNH Bootcamp Challenge 5
 
 ## Description
-The motivation behind this project was to create a workspace where users can test themselves or brush up on knowledge about coding basics. Once the user clicks the "Start Quiz" button, the quiz will start and a 75 second timer will begin. Each question the user selects correctly will a-lot them ten points. An incorrect selection will penalize the user, in turn decrementing their total time by ten seconds. Once the user completes the quiz, they will be asked to an input their name. The user with the highest scores name will be displayed on the "High Score" page, and the user will have the option of restarting the quiz. Through this process I have learned by direct application how much simpler jQuery can make the lives of developers, and how difficult it is to refactor jQuery code back into vanilla JavaScript as well as how important the order of operations is when calling certain functions, overall code cleanliness, and organization.
+The motivation behind this project was to create a work day scheduler where users can add task to time slots throughout the day to keep them more organized. Once the user opens the website they are borught the a scheduler that includes he current date and time at the top of the screen as well as time slots for the hours of a 'normal' work day (9am-5pm) they are able to add task to each time slot and press a save button which not only allws the task to remain after the page is refreshed but the text is also saved into the local storage. The scheduler is also color coded meanign that times that are in the past are a grey color, the present hour is red, and future time slots are green.
+
+
 
 ## Usage
 1. Open the coding quiz URL in your browser.
-2. Complete the quiz using the 'start' button and answering the questions within the time allowed. 
+2. Add tasks to the scheduler for the day and click save for each time slot in order to ensure the task will remain after a refresh.
 
-## Rules 
-You have 75 seconds to correctly answer 5 questions...
-
-Sounds easy enough, BUT, if you answer incorrectly you are penalized 10 seconds.
-
-Points are awarded for correctness (10 points if you get the question correct) and at the end you can save your [local] score with your initials to the high-score board.
-
-Just hit the start button to begin the coding quiz.
 
 ## Installation
 
 1. Clone the repo
-   git clone https://github.com/dhiduchick/Hiduchick-Coding-Quiz.git
+   git clone https://github.com/dhiduchick/Hiduchick-Day-Scheduler.git
 
 2. Open in VS Code. If you do not have VS code you must install it.
 
@@ -28,9 +22,11 @@ Just hit the start button to begin the coding quiz.
 * HTML
 * CSS
 * JavaScript
+* Jquery API
+* Bootstrap API
 
 ## Website
-https://dhiduchick.github.io/Hiduchick-Coding-Quiz/
+
 
 ## Demo 
 ![Website Demo GIF](./Assets/Images/work%20day%20scheduler.gif)
