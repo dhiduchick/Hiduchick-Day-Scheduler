@@ -26,7 +26,7 @@ The motivation behind this project was to create a work day scheduler where user
 * Bootstrap API
 
 ## Website
-
+ Live Link https://dhiduchick.github.io/Hiduchick-Day-Scheduler/ 
 
 ## Demo 
 ![Website Demo GIF](./Assets/Images/work%20day%20scheduler.gif)
